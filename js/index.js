@@ -12,7 +12,7 @@ function changeInput(value) {
     getMessage();
 }
 
-import API_KEY from './config.js';
+
 
 
 
