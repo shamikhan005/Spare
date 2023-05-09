@@ -1,0 +1,2 @@
+<h1>Spare</h1>
+Spare solves the problem of lacking focus and getting easily distracted while working or completing tasks. By consolidating all the essential tools in one central location, Spare ensures that users have everything they need at their fingertips, minimizing the need to switch between multiple applications or platforms.Its simple and minimal user interface further contributes to a seamless and distraction-free user experience.

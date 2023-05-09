@@ -1,0 +1,80 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.note-container {
+    position: relative;
+    background-color: #e7e7e7;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.note-text {
+    margin-bottom: 10px;
+    margin-right:10px ;
+    font-size: 18px;
+}
+
+
+.timestamp {
+    font-size: 12px;
+    color: #888888;
+    
+}
+
+.delete {
+    position: absolute;
+    top: 50%;
+    right: -25px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #888888;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.delete:hover {
+    color: #ff0000;
+}
+
+button:hover{
+
+    background-color: rgb(49, 49, 248);
+    color: #e7e7e7;
+    cursor: pointer;
+}
