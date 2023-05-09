@@ -1,5 +1,4 @@
-
-
+const API_KEY = ''     // API KEY not mention[public] due to security reasons.
 const submitButton = document.querySelector('#submit')
 const outPutElement = document.querySelector('#output')
 const inputElement = document.querySelector('input')
@@ -11,11 +10,6 @@ function changeInput(value) {
     inputElement.value = value;
     getMessage();
 }
-
-
-
-
-
 
 
 async function getMessage() {
@@ -58,7 +52,6 @@ async function getMessage() {
         console.error(error)
     }
 }
-
 
 
 submitButton.addEventListener('click', getMessage)
