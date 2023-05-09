@@ -1,4 +1,3 @@
-const API_KEY = process.env.NEXT_PUBLIC_API_KEY;
 
 
 const submitButton = document.querySelector('#submit')
@@ -13,6 +12,9 @@ function changeInput(value) {
     getMessage();
 }
 
+import API_KEY from './config.js';
+
+
 
 
 
@@ -21,7 +23,7 @@ async function getMessage() {
     const options = {
         method: 'POST',
         headers: {
-            'Authorization': `Bearer ${process.env.NEXT_PUBLIC_API_KEY}`,
+            'Authorization': `Bearer ${API_KEY}`,
             'Content-Type': 'application/json'
         },
         body: JSON.stringify({
