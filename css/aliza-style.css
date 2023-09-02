@@ -125,55 +125,6 @@ input {
     border-radius: 10px;
 }
 
-#chat-button {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-    z-index: 9999;
-  }
-  
-  #chat-window {
-    position: fixed;
-    bottom: 100px;
-    right: 20px;
-    width: 400px;
-    height: 500px;
-    border: 1px solid #ccc;
-    background-color: white;
-    z-index: 9999;
-    display: none;
-  }
-  
-  #chat-header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  #close-button {
-    background-color: transparent;
-    border: none;
-    color: white;
-    font-size: 24px;
-    cursor: pointer;
-  }
-  
-  #chat-body {
-    padding: 10px;
-    height: 400px;
-    overflow-y: scroll;
-  }
+
   
 
