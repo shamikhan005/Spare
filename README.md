@@ -3,7 +3,9 @@ Spare is a productivity tool designed to address the challenge of maintaining fo
 
 <h2>Features</h2>
 - Centralized Tools: Spare consolidates all the essential tools you need in one place, eliminating the hassle of navigating through various applications.
+
 - Focus Enhancement: By reducing the need to switch between different tools, Spare helps you maintain focus and stay on track with your tasks.
+  
 - Distraction-Free UI: The minimalistic user interface of Spare ensures a seamless and distraction-free experience, promoting a more productive work environment.
 
 <h2>License</h2>
